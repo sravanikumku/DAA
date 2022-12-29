@@ -20,10 +20,7 @@ int minind(int *dist,int n,int *visited)
     //printf("%d",index);
     return index;
 }
-int min(int a,int b)
-{
-    return (a>b)?a:b;
-}
+
 int minCostConnectPoints(int** points, int pointsSize, int* pointsColSize){
    int visited[pointsSize];
    int i,j;
